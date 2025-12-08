@@ -58,7 +58,7 @@ const Index = () => {
             </p>
 
             {/* Search */}
-            <div className="mb-8 animate-fade-up opacity-0 stagger-4" style={{ animationFillMode: 'forwards' }}>
+            <div className="relative z-20 mb-8 animate-fade-up opacity-0 stagger-4" style={{ animationFillMode: 'forwards' }}>
               <SearchInput
                 value={searchQuery}
                 onChange={setSearchQuery}
@@ -68,7 +68,7 @@ const Index = () => {
             </div>
 
             {/* Feature Pills */}
-            <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-up opacity-0 stagger-5" style={{ animationFillMode: 'forwards' }}>
+            <div className="relative z-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up opacity-0 stagger-5" style={{ animationFillMode: 'forwards' }}>
               {[
                 { icon: TrendingUp, label: 'Real-time prices' },
                 { icon: ShieldCheck, label: 'Trusted retailers' },
