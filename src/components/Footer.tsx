@@ -1,5 +1,5 @@
-import { Scale, Heart } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Scale, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -18,8 +18,8 @@ export const Footer = () => {
 
           {/* Links */}
           <nav className="flex items-center gap-6">
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               About
@@ -30,16 +30,17 @@ export const Footer = () => {
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             <span>Made with</span>
             <Heart className="h-4 w-4 fill-destructive text-destructive" />
-            <span>in South Africa</span>
+            <span>by LC Studio</span>
           </div>
         </div>
 
         {/* Disclaimer */}
         <div className="mt-6 border-t border-border pt-6">
           <p className="text-center text-xs text-muted-foreground">
-            Prices may vary. Data sourced via publicly accessible online product listings.
-            <br />
-            © {new Date().getFullYear()} PriceCompare SA. All rights reserved.
+            Prices may vary. Data sourced via publicly accessible online product
+            listings.
+            <br />© {new Date().getFullYear()} PriceCompare SA. All rights
+            reserved.
           </p>
         </div>
       </div>

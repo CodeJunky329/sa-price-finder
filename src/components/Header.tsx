@@ -23,11 +23,11 @@ export const Header = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold leading-none tracking-tight text-foreground">
-              PriceCompare
+              ShopWise
             </span>
-            <span className="text-xs font-medium text-muted-foreground">
+            {/* <span className="text-xs font-medium text-muted-foreground">
               South Africa
-            </span>
+            </span> */}
           </div>
         </Link>
 

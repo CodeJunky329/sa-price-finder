@@ -6,11 +6,14 @@ import { ProductCard } from '@/components/ProductCard';
 import { ProductCardSkeleton } from '@/components/ProductCardSkeleton';
 import { searchProducts, getCategories, getUniqueProducts } from '@/lib/productUtils';
 import { Scale, TrendingUp, ShieldCheck, Zap } from 'lucide-react';
+import { Pagination, PaginationContent, PaginationItem, PaginationLink } from '@/components/ui/pagination';
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [isLoading, setIsLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 14;
 
   const categories = useMemo(() => getCategories(), []);
   const allProducts = useMemo(() => getUniqueProducts(), []);
@@ -23,11 +26,26 @@ const Index = () => {
     return [...new Set(allProducts.map(p => p.productName))].slice(0, 20);
   }, [allProducts]);
 
+  const totalPages = Math.max(1, Math.ceil(products.length / PAGE_SIZE));
+  const paginatedProducts = useMemo(() => {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return products.slice(start, start + PAGE_SIZE);
+  }, [products, currentPage]);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Simulate loading for skeleton effect
   useEffect(() => {
     setIsLoading(true);
     const timer = setTimeout(() => setIsLoading(false), 300);
     return () => clearTimeout(timer);
+  }, [searchQuery, selectedCategory]);
+
+  useEffect(() => {
+    setCurrentPage(1);
   }, [searchQuery, selectedCategory]);
 
   return (
@@ -54,7 +72,7 @@ const Index = () => {
             </h1>
 
             <p className="mb-8 text-lg text-muted-foreground animate-fade-up opacity-0 stagger-3" style={{ animationFillMode: 'forwards' }}>
-              Compare prices from Pick n Pay, Checkers, Shoprite & Woolworths — all in one place.
+              Compare prices from Pick n Pay, Checkers, Shoprite & Woolworths all in one place.
             </p>
 
             {/* Search */}
@@ -119,7 +137,7 @@ const Index = () => {
           </div>
 
           {/* Product Grid */}
-          <div className="grid grid-cols-1 gap-3 xs:grid-cols-2 sm:gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {isLoading ? (
               // Skeleton Loading
               Array.from({ length: 8 }).map((_, i) => (
@@ -127,7 +145,7 @@ const Index = () => {
               ))
             ) : products.length > 0 ? (
               // Product Cards
-              products.slice(0, 24).map((product, index) => (
+              paginatedProducts.map((product, index) => (
                 <ProductCard
                   key={`${product.productName}-${product.retailer}-${index}`}
                   product={product}
@@ -148,7 +166,29 @@ const Index = () => {
                 </p>
               </div>
             )}
-          </div>
+          </div
+>
+          {!isLoading && totalPages > 1 && (
+            <Pagination className="mt-6">
+              <PaginationContent>
+                {Array.from({ length: totalPages }).map((_, i) => (
+                  <PaginationItem key={i}>
+                    <PaginationLink
+                      href="#"
+                      size="default"
+                      isActive={currentPage === i + 1}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        handlePageChange(i + 1);
+                      }}
+                    >
+                      {i + 1}
+                    </PaginationLink>
+                  </PaginationItem>
+                ))}
+              </PaginationContent>
+            </Pagination>
+          )}
         </div>
       </section>
     </Layout>

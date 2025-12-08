@@ -70,7 +70,7 @@ export const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
             asChild
             variant="retailer"
             size="sm"
-            className="h-8 px-3 text-xs sm:h-9 sm:px-4 sm:text-sm sm:w-full"
+            className="h-7 px-2.5 text-[11px] sm:h-9 sm:px-4 sm:text-sm sm:w-full [&_svg]:size-3 sm:[&_svg]:size-4"
           >
             <Link 
               to={`/compare/${encodeURIComponent(product.productName)}`}
