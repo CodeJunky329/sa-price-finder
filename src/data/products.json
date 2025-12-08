@@ -1,0 +1,461 @@
+[{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c8c"
+  },
+  "category": "Electronics",
+  "price": "R169.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/6866eed8d234e2cd0bca6590",
+  "productName": "Energizer MAX AAA Alkaline Batteries 12-Pack",
+  "productURL": "https://www.checkers.co.za/product/energizer-max-aaa-alkaline-batteries-12-pack-10689259EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c8d"
+  },
+  "category": "Electronics",
+  "price": "R129.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/63e10204749cf491e8b04982",
+  "productName": "SanDisk Cruzer Glide Retractable USB-A 3.0 Flash Drive 32GB",
+  "productURL": "https://www.checkers.co.za/product/sandisk-cruzer-glide-retractable-usb-a-30-flash-drive-32gb-10709366EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c8e"
+  },
+  "category": "Groceries",
+  "price": "R109.99",
+  "productImageURL": "https://catalog.sixty60.co.za/v2/files/63d4b00116c7ec590330f036?width=320&height=320",
+  "productName": "Nulaid Grade 1 Large Eggs 30 x >51g",
+  "productURL": "https://www.checkers.co.za/product/nulaid-grade-1-large-eggs-30-x-51g-10136777EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c8f"
+  },
+  "category": "Groceries",
+  "price": "R94.99",
+  "productImageURL": "https://catalog.sixty60.co.za/v2/files/67575c27e175517e7a5045e7?width=320&height=320",
+  "productName": "Checkers Housebrand Full Cream Milk 6 x 1L",
+  "productURL": "https://www.checkers.co.za/product/checkers-housebrand-full-cream-milk-6-x-1l-10156094PK1",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c90"
+  },
+  "category": "Health & Wellness",
+  "price": "R87.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/684c4aa170622939864c4d34",
+  "productName": "Grand-Pa Headache Powder 38 Pack",
+  "productURL": "https://www.checkers.co.za/product/grand-pa-headache-powder-38-pack-10750813EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c91"
+  },
+  "category": "Health & Wellness",
+  "price": "R79.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/68417c199f492b308b1d8f8b",
+  "productName": "Calpol Strawberry Flavoured Paediatric Suspension 100ml",
+  "productURL": "https://www.checkers.co.za/product/calpol-strawberry-flavoured-paediatric-suspension-100ml-10144902EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c92"
+  },
+  "category": "Cleaning & Household",
+  "price": "R37.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/6780c0feff83876b40674186",
+  "productName": "Sunlight Original Dishwashing Liquid 750ml",
+  "productURL": "https://www.checkers.co.za/product/sunlight-original-dishwashing-liquid-750ml-10126901EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c93"
+  },
+  "category": "Cleaning & Household",
+  "price": "R62.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/63d1b9ba749cf491e8a0e2ad",
+  "productName": "Surf Hand Washing Powder 2kg",
+  "productURL": "https://www.checkers.co.za/product/surf-hand-washing-powder-2kg-10216662EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c94"
+  },
+  "category": "Personal Care",
+  "price": "R24.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/6904e0e5ea3c21fabfe043af",
+  "productName": "Colgate Triple Action Xtra Fluoride Toothpaste 100ml",
+  "productURL": "https://www.checkers.co.za/product/colgate-triple-action-xtra-fluoride-toothpaste-100ml-10938896EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c95"
+  },
+  "category": "Personal Care",
+  "price": "R79.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/6807c88b8f572206ed13e40b",
+  "productName": "Dettol Antiseptic Liquid 750ml",
+  "productURL": "https://www.checkers.co.za/product/dettol-antiseptic-liquid-750ml-10128732EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c96"
+  },
+  "category": "Stationery",
+  "price": "R64.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/672a8445841309d3872cdd74",
+  "productName": "Staedtler Wood-Free Pencil Crayons 24 Pack",
+  "productURL": "https://www.checkers.co.za/product/staedtler-wood-free-pencil-crayons-24-pack-10514798EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692ef483fefa1b6ad6037c97"
+  },
+  "category": "Stationery",
+  "price": "R14.99",
+  "productImageURL": "https://catalog.sixty60.co.za/files/63d87a21bb819c5947d77059",
+  "productName": "Scholar A4 1 Quire Feint & Margin Hardcover Counter Book 96 Pages",
+  "productURL": "https://www.checkers.co.za/product/scholar-a4-1-quire-feint-and-margin-hardcover-counter-book-96-pages-10110933EA",
+  "retailer": "Checkers"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e177"
+  },
+  "category": "Health & Wellness",
+  "price": "R79.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Calpol-Paediatric-Syrup-100-ml-6001424000021.jpg?V=0Iyr&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI1LTExLTE4LzYwMDE0MjQwMDAwMjFfaGVyby5qcGcifQ&",
+  "productName": "Calpol Paediatric Syrup 100 ml",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Toiletries-Health/Health-Pharmacy/Medical/Calpol-Paediatric-Syrup-100-ml/_/A-6001424000021?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e178"
+  },
+  "category": "Electronics",
+  "price": "R169.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Energizer-MAX-AA-Alkaline-Batteries-12-pk-8888021206289.jpg?V=DJLR&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI1LTA1LTE5Lzg4ODgwMjEyMDYyODlfaGVyby5qcGcifQ&",
+  "productName": "Energizer MAX AA Alkaline Batteries 12 pk",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Household/Batteries-Chargers/Energizer-MAX-AA-Alkaline-Batteries-12-pk/_/A-8888021206289?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e179"
+  },
+  "category": "Personal Care",
+  "price": "R24.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Colgate-Triple-Action-Original-Mint-Toothpaste-100-ml-6920354814891.jpg?V=b3mg&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI1LTA1LTE5LzY5MjAzNTQ4MTQ4OTFfaGVyby5qcGcifQ&",
+  "productName": "Colgate Triple Action Original Mint Toothpaste 100 ml",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Toiletries-Health/Oral-Care/Toothpaste/Colgate-Triple-Action-Original-Mint-Toothpaste-100-ml/_/A-6920354814891?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e17a"
+  },
+  "category": "Groceries",
+  "price": "R119.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Long-Life-Full-Cream-Milk-6-x-1-L-6009171091446.jpg?V=fkzQ&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDIyLTA4LTI2LzYwMDkxNzEwOTE0NDZfaGVyby5qcGcifQ&",
+  "productName": "Long Life Full Cream Milk 6 x 1 L",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Pantry/Long-Life-Milk-Dairy-Alternatives/Long-Life-Milk/Full-Cream/Long-Life-Full-Cream-Milk-6-x-1-L/_/A-6009171091446?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e17b"
+  },
+  "category": "Health & Wellness",
+  "price": "R104.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Grand-Pa-Headache-Powders-38-Pcs-6001076037079.jpg?V=JdTw&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI0LTA4LTIxLzYwMDEwNzYwMzcwNzlfaGVyby5qcGcifQ&",
+  "productName": "Grand-Pa Headache Powders 38 Pcs",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Toiletries-Health/Health-Pharmacy/Medical/Grand-Pa-Headache-Powders-38-Pcs/_/A-6001076037079?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "692feaa8f975bbfeafc5e17c"
+  },
+  "category": "Cleaning & Household",
+  "price": "R31.99",
+  "productImageURL": "https://assets.woolworthsstatic.co.za/Sunlight-Dishwashing-Liquid-750-ml-6001087403856.jpg?V=@Pjn&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI1LTEwLTA3LzYwMDEwODc0MDM4NTZfaGVyby5qcGcifQ&",
+  "productName": "Sunlight Dishwashing Liquid 750 ml",
+  "productURL": "https://www.woolworths.co.za/prod/Food/Cleaning/Dishwashing/Dishwashing-Liquids/Sunlight-Dishwashing-Liquid-750-ml/_/A-6001087403856?isFromPLP=true",
+  "retailer": "Woolworths"
+},
+{
+  "_id": {
+    "$oid": "69300e4403747da96e6c7515"
+  },
+  "productName": "SanDisk Cruzer Glide Retractable USB-A 3.0 Flash Drive 32GB",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Electronics/Computing/Hard-Drives-and-Flash-Drives/SanDisk-Cruzer-Glide-Retractable-USB-A-3-0-Flash-Drive-32GB/p/10709366EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/10709366EA-checkers515Wx515H.webp?context=bWFzdGVyfGltYWdlc3wxNDY3MnxpbWFnZS93ZWJwfGltYWdlcy9oNTIvaGJmLzk4MjMxNDQzNDU2MzAud2VicHxjNWMzOWMyZDYzYWRjYWUxN2Q1NDQ1MTdhZjMxMDIxNDRmZDRkMjRhYTc3NTY5YThkMzMxYTY3NzhlMDRmYmVh",
+  "price": "R129.99",
+  "category": "Electronics"
+},
+{
+  "_id": {
+    "$oid": "69300f09af0efd73807c90bf"
+  },
+  "productName": "Ritebrand Long Life Full Cream Milk 6 x 1L",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Food/Food-Cupboard/Long-Life-Milk-and-Dairy-Alternatives/Ritebrand-Long-Life-Full-Cream-Milk-6-x-1L-/p/10156109PK1",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-medias-10156109PK1-en-shopriteGlobalProductCatalog-20240913110852.png?context=bWFzdGVyfGltYWdlc3wxNzUwfGltYWdlL3BuZ3xpbWFnZXMvaGUzL2hjNi8xMTIzNTIxNDI5NTA3MC5wbmd8MmNmZjdhNmIwOGUyNWNjNmZkNDM1MmUxOGI0ZTA1NDlmNWRlMTlmOWRhM2Q3NTFjNzMwNjczNzBjYTY5OTQyMg",
+  "price": "R89.99",
+  "category": "Groceries",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300f09af0efd73807c90c0"
+  },
+  "productName": "Golden Yolk Extra Large Eggs Tray 30 Pack",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Food/Fresh-Food/Milk%2C-Butter-and-Eggs/Golden-Yolk-Extra-Large-Eggs-Tray-30-Pack/p/10714973EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-10714973EA.png?context=bWFzdGVyfGltYWdlc3wyNjE0fGltYWdlL3BuZ3xpbWFnZXMvaDg0L2g0Ny8xMTU1MTQ3MzMwMzU4Mi5wbmd8ZTIwMDVhNmUwNGMxZDQ5YzRkODQ4ZTQ1OTAxNzllZmQ4YmFmNjE4MDE4ZTQzYjEwYWE1YTVhYWEzYzk2NDQ1OA",
+  "price": "R74.99",
+  "category": "Groceries",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300f390e0acf788f9a106a"
+  },
+  "productName": "Grand-Pa Headache Powder 38 Pack",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Toiletries/Medicine/Pain-Relief/Grand-Pa-Headache-Powder-38-Pack/p/10750813EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-medias-10750813EA-en-shopriteGlobalProductCatalog-20250613123502.png?context=bWFzdGVyfGltYWdlc3wyNjI1fGltYWdlL3BuZ3xpbWFnZXMvaGFlL2gwMy8xMTg0MDUyOTk1Njg5NC5wbmd8ZmI5YjNjMDhiNGE0NzY1YzE4Y2Q5N2RhN2IzMWQxODAwYWQwM2UwZWVkNzkxYTQ1MjE4Yzc0YWU1MGQzNDBlNw",
+  "price": "R109.99",
+  "category": "Health & Wellness",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300f390e0acf788f9a106b"
+  },
+  "productName": "Calpol Strawberry Flavoured Paediatric Suspension 100ml",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Toiletries/Medicine/Kids-Medicines/Calpol-Strawberry-Flavoured-Paediatric-Suspension-100ml/p/10144902EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-medias-10144902EA-en-shopriteGlobalProductCatalog-20250605091630.png?context=bWFzdGVyfGltYWdlc3wxNzc3fGltYWdlL3BuZ3xpbWFnZXMvaDBmL2hkMi8xMTgxNzY5MjU5NDIwNi5wbmd8ZTU4OTAwMDE3YzU3MTU2ZThhZTBmYmY0OTZkYWZhNzRhNjJjODE2MmFmOGZlOTJhYzY1MzkyNjUzNWZkMjJhOQ",
+  "price": "R79.99",
+  "category": "Health & Wellness",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300f67445c44d95a40b56c"
+  },
+  "productName": "Sunlight Original Dishwashing Liquid 750ml",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Household/Cleaning/Dishwashing/Sunlight-Original-Dishwashing-Liquid-750ml-/p/10126901EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-10126901EA.png?context=bWFzdGVyfGltYWdlc3wxNTQ3fGltYWdlL3BuZ3xpbWFnZXMvaDNmL2hmYS8xMTUxODM2MTMzNzg4Ni5wbmd8NDRlNzBlNDc5YjMxOGQzZTNhY2NhMTc3MmUwMWZmYWMzMmU5NGJjZGMzMGRkNDQ3ODhjMGI2MWUwYTFlMjUwNw",
+  "price": "R29.99",
+  "category": "Cleaning & Household",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300f67445c44d95a40b56d"
+  },
+  "productName": "Surf Hand Washing Powder 2kg",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Household/Laundry/Surf-Hand-Washing-Powder-2kg/p/10216662EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-10216662EA-checkers300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjU5fGltYWdlL3BuZ3xpbWFnZXMvaDgzL2g2MS8xMDE0Mzc2Mzc5MTkwMi5wbmd8NjVmOTk2MTQ3Y2FiNjVjZjRlMzU1ZGI0Y2QwYmY5MTVkM2NhOTdiM2VhNzgwNWUwMTA3MGI3OTM0NTcwNDdhNQ",
+  "price": "R59.99",
+  "category": "Cleaning & Household",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092824"
+  },
+  "category": "Groceries",
+  "price": "R99.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h4e/hb5/11491489710110/silo-product-image-v2-26Sep2024-180138-6001299015205-Straight_on-251327-185_400Wx400H",
+  "productName": "Clover UHT Full Cream Long Life Milk 6 x 1L",
+  "productURL": "https://www.pnp.co.za/All-Products/Beverages/Long-Life-Milk/UHT-Milk/Full-Cream/clover-uht-full-cream-long-life-milk-6-x-1l/p/000000000000538315_CS",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092825"
+  },
+  "category": "Groceries",
+  "price": "R77.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h91/hcb/17495837212702/silo-product-image-v2-02Oct2025-180039-6001007026899-Straight_on-356877-267_515Wx515H",
+  "productName": "PnP Large Eggs 30 Pack",
+  "productURL": "https://www.pnp.co.za/pnp-large-eggs-30-pack/p/000000000000203520_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092826"
+  },
+  "category": "Cleaning & Household",
+  "price": "R36.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h7e/he5/16121666338846/silo-product-image-v2-10Sep2025-180057-6001087403856-Straight_on-351829-559_515Wx515H",
+  "productName": "Sunlight Original Dishwashing Liquid 750ml",
+  "productURL": "https://www.pnp.co.za/sunlight-original-dishwashing-liquid-750ml/p/000000000001007088_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092827"
+  },
+  "category": "Cleaning & Household",
+  "price": "R59.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/hec/h6f/11538931613726/silo-product-image-v2-11Dec2024-180055-6001085126719-Straight_on-276657-266_515Wx515H",
+  "productName": "Surf Stain Removal Hand Washing Powder Detergent 2kg",
+  "productURL": "https://www.pnp.co.za/surf-stain-removal-hand-washing-powder-detergent-2kg/p/000000000000413041_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092828"
+  },
+  "category": "Health & Wellness",
+  "price": "R107.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h8a/he7/13031072923678/silo-product-image-v2-05Jul2025-180029-6001076003593-Straight_on-333780-581_515Wx515H",
+  "productName": "Grand-pa Headache Powder Regular Stick Pack 38 Pack",
+  "productURL": "https://www.pnp.co.za/grand-pa-headache-powder-regular-stick-pack-38-pack/p/000000000000859156_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c203092829"
+  },
+  "category": "Health & Wellness",
+  "price": "R79.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h89/h6f/12213271035934/silo-product-image-v2-27May2025-180051-6001424000021-Straight_on-327552-154_515Wx515H",
+  "productName": "Calpol Strawberry Flavoured Paediatric Syrup 100ml",
+  "productURL": "https://www.pnp.co.za/calpol-strawberry-flavoured-paediatric-syrup-100ml/p/000000000000226338_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282a"
+  },
+  "category": "Electronics",
+  "price": "R164.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h48/hbb/12113303404574/silo-product-image-v2-21May2025-180147-8888021206319-Straight_on-324508-335_400Wx400H",
+  "productName": "Energizer Max AAA 12 Pack",
+  "productURL": "https://www.pnp.co.za/energizer-max-aaa-12-pack/p/000000000000793068_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282b"
+  },
+  "category": "Electronics",
+  "price": "R99.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc4/h05/10936370790430/silo-product-image-v2-31Aug2022-180134-619659115890-Straight_on-53450-1639_515Wx515H",
+  "productName": "Sandisk Cruzer Glide USB 3.0 Flash Drive 32GB",
+  "productURL": "https://www.pnp.co.za/sandisk-cruzer-glide-usb-3.0-flash-drive-32gb/p/000000000000722226_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282c"
+  },
+  "category": "Stationery",
+  "price": "R74.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h57/h1e/11535740370974/silo-product-image-v2-05Dec2024-180102-4007817021439-Straight_on-274851-866_515Wx515H",
+  "productName": "Staedtler Colour Pencil Woodfree 24 Pack",
+  "productURL": "https://www.pnp.co.za/staedtler-colour-pencil-woodfree-24-pack/p/000000000000961384_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282d"
+  },
+  "category": "Stationery",
+  "price": "R17.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h46/h0b/15926511173662/silo-product-image-v2-06Sep2025-180054-6001007271138-Straight_on-351121-476_515Wx515H",
+  "productName": "A4 Hard Cover Book 96 Pages",
+  "productURL": "https://www.pnp.co.za/pnp-a4-counter-book-96-pages/p/000000000000554880_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282e"
+  },
+  "category": "Personal Care",
+  "price": "R24.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h73/h2d/11123918176286/silo-product-image-v2-16Mar2023-183326-6920354814891-Straight_on-89500-7195_400Wx400H",
+  "productName": "Colgate Triple Action Multibenefit Toothpaste 100ml",
+  "productURL": "https://www.pnp.co.za/colgate-triple-action-multibenefit-toothpaste-100ml/p/000000000000647582_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300c1acec3a6c20309282f"
+  },
+  "category": "Personal Care",
+  "price": "R114.99",
+  "productImageURL": "https://cdn-prd-02.pnp.co.za/sys-master/images/h01/h7e/11679098503198/silo-product-image-v2-08Apr2025-180110-6001016400000-Straight_on-308471-154_515Wx515H",
+  "productName": "Dettol Antiseptic Liquid 750ml",
+  "productURL": "https://www.pnp.co.za/dettol-antiseptic-liquid-750ml/p/000000000000121353_EA",
+  "retailer": "Pick n Pay"
+},
+{
+  "_id": {
+    "$oid": "69300fa974b37f3cd7d8997c"
+  },
+  "productName": "Dettol Antiseptic Liquid 750ml",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Toiletries/First-Aid/Antiseptics-and-Disinfectants/Dettol-Antiseptic-Liquid-750ml/p/10128732EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-medias-10128732EA-en-shopriteGlobalProductCatalog-20250422021833.png?context=bWFzdGVyfGltYWdlc3wxNzc3fGltYWdlL3BuZ3xpbWFnZXMvaGZkL2hiMC8xMTczMTc5MTIxNjY3MC5wbmd8NjYwODAwYTEyYzNhZTYxZTcyZTY4N2M0N2MyMjRkYzNhNGJmYWE2MjZjNjZkYTllNmJkNTNlNGEzZTM3MTM3ZA",
+  "price": "R109.99",
+  "category": "Personal Care",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "69300fa974b37f3cd7d8997d"
+  },
+  "productName": "Colgate Triple Action Xtra Fluoride Toothpaste 100ml",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Toiletries/Oral-Care/Toothpastes/Colgate-Triple-Action-Xtra-Fluoride-Toothpaste-100ml-/p/10938896EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-medias-10938896EA-en-shopriteGlobalProductCatalog-20251031044242.png?context=bWFzdGVyfGltYWdlc3wxMzExfGltYWdlL3BuZ3xpbWFnZXMvaDRiL2hmMC8xMjE0OTY1NzMzNzg4Ni5wbmd8YzdhNWEyZmFlNzE4NTMyYTQ4ZjQ4NDBjNDY0NjgzZDM3ZTg4MmYzM2ZhYjkyYTRmMjI3MTAzMjcwYjk4YmFlYw",
+  "price": "R24.99",
+  "category": "Personal Care",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "693010060c9bdc525f182f29"
+  },
+  "productName": "Staedtler Wood-Free Pencil Crayons 24 Pack",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Household/Stationery-and-Newsagent/Hobbies-and-Crafts/Staedtler-Wood-Free-Pencil-Crayons-24-Pack/p/10514798EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-checkers300Wx300H-10514798EA.png?context=bWFzdGVyfGltYWdlc3wzNzgzfGltYWdlL3BuZ3xpbWFnZXMvaGMxL2g1NS8xMTI3MTQ4MDkzNDQzMC5wbmd8Y2YyZjNlNjdiYWY5NWRkZDYzNDlkMmQzYTUzNmU4MjI3N2RhM2NlZjJlNDY5YzBkZjgyNDIyMzEyYzI1ZDZlMA",
+  "price": "R64.99",
+  "category": "Stationery",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "693010060c9bdc525f182f2a"
+  },
+  "productName": "Scholar A4 1 Quire Feint & Margin Hardcover Counter Book 96 Pages",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Household/Stationery-and-Newsagent/Books/Scholar-A4-1-Quire-Feint-and-Margin-Hardcover-Counter-Book-96-Pages/p/10110933EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/lqi-10110933EA-20190726-Media-checkers300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjYwfGltYWdlL3BuZ3xpbWFnZXMvaDhlL2hlYy85MDg3MjQ1MjU0Njg2LnBuZ3wxMWVkNjE4ZWQ2MjNhMjk5MzBkZmUxNTU0NDE2OGVkZjJjMmE4OWRiYzE0NWJkM2Q4NDMwODRiYTY5Njg1OTg0",
+  "price": "R17.99",
+  "category": "Stationery",
+  "retailer": "Shoprite"
+},
+{
+  "_id": {
+    "$oid": "6930107582efc163efc1333f"
+  },
+  "productName": "SanDisk Cruzer Glide Retractable USB-A 3.0 Flash Drive 32GB",
+  "productURL": "https://www.shoprite.co.za/All-Departments/Electronics/Computing/Hard-Drives-and-Flash-Drives/SanDisk-Cruzer-Glide-Retractable-USB-A-3-0-Flash-Drive-32GB/p/10709366EA",
+  "productImageURL": "https://www.shoprite.co.za/medias/10709366EA-checkers515Wx515H.webp?context=bWFzdGVyfGltYWdlc3wxNDY3MnxpbWFnZS93ZWJwfGltYWdlcy9oNTIvaGJmLzk4MjMxNDQzNDU2MzAud2VicHxjNWMzOWMyZDYzYWRjYWUxN2Q1NDQ1MTdhZjMxMDIxNDRmZDRkMjRhYTc3NTY5YThkMzMxYTY3NzhlMDRmYmVh",
+  "price": "R129.99",
+  "category": "Electronics",
+  "retailer": "Shoprite"
+}]
