@@ -83,7 +83,7 @@ export const SearchInput = ({
       </div>
 
       {showSuggestions && value && filteredSuggestions.length > 0 && (
-        <div className="absolute top-full z-50 mt-2 w-full overflow-hidden rounded-xl border border-border bg-card shadow-card-hover animate-scale-in">
+        <div className="absolute top-full z-[100] mt-2 w-full overflow-hidden rounded-xl border border-border bg-card shadow-card-hover animate-scale-in">
           {filteredSuggestions.map((suggestion, index) => (
             <button
               key={suggestion}
