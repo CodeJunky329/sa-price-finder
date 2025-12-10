@@ -7,7 +7,7 @@ import { ProductCardSkeleton } from '@/components/ProductCardSkeleton';
 import { ProductFilters, SortOption } from '@/components/ProductFilters';
 import { searchProducts, getCategories, getUniqueProducts, parsePrice } from '@/lib/productUtils';
 import { Scale, TrendingUp, ShieldCheck, Zap } from 'lucide-react';
-import { Pagination, PaginationContent, PaginationItem, PaginationLink } from '@/components/ui/pagination';
+import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from '@/components/ui/pagination';
 import { Retailer } from '@/types/product';
 
 const Index = () => {
@@ -197,27 +197,69 @@ const Index = () => {
           </div>
 
           {!isLoading && totalPages > 1 && (
-            <Pagination className="mt-6">
-              <PaginationContent className="gap-1">
-                {Array.from({ length: Math.min(totalPages, 5) }).map((_, i) => {
-                  const page = i + 1;
-                  return (
-                    <PaginationItem key={i}>
-                      <PaginationLink
-                        href="#"
-                        size="default"
-                        isActive={currentPage === page}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          handlePageChange(page);
-                        }}
-                        className="h-8 w-8 sm:h-9 sm:w-9 text-xs sm:text-sm"
-                      >
-                        {page}
-                      </PaginationLink>
-                    </PaginationItem>
+            <Pagination className="mt-8">
+              <PaginationContent className="gap-1 sm:gap-2">
+                {/* Previous Button */}
+                <PaginationItem>
+                  <PaginationPrevious
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage > 1) handlePageChange(currentPage - 1);
+                    }}
+                    className={currentPage === 1 ? 'pointer-events-none opacity-50' : ''}
+                  />
+                </PaginationItem>
+
+                {/* Page Numbers */}
+                {(() => {
+                  const pages: (number | 'ellipsis')[] = [];
+                  if (totalPages <= 5) {
+                    for (let i = 1; i <= totalPages; i++) pages.push(i);
+                  } else {
+                    pages.push(1);
+                    if (currentPage > 3) pages.push('ellipsis');
+                    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+                      pages.push(i);
+                    }
+                    if (currentPage < totalPages - 2) pages.push('ellipsis');
+                    pages.push(totalPages);
+                  }
+                  return pages.map((page, idx) =>
+                    page === 'ellipsis' ? (
+                      <PaginationItem key={`ellipsis-${idx}`}>
+                        <PaginationEllipsis />
+                      </PaginationItem>
+                    ) : (
+                      <PaginationItem key={page}>
+                        <PaginationLink
+                          href="#"
+                          size="default"
+                          isActive={currentPage === page}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handlePageChange(page);
+                          }}
+                          className="h-9 w-9 sm:h-10 sm:w-10 text-sm"
+                        >
+                          {page}
+                        </PaginationLink>
+                      </PaginationItem>
+                    )
                   );
-                })}
+                })()}
+
+                {/* Next Button */}
+                <PaginationItem>
+                  <PaginationNext
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage < totalPages) handlePageChange(currentPage + 1);
+                    }}
+                    className={currentPage === totalPages ? 'pointer-events-none opacity-50' : ''}
+                  />
+                </PaginationItem>
               </PaginationContent>
             </Pagination>
           )}
