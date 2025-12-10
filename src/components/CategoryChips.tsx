@@ -37,7 +37,7 @@ export const CategoryChips = ({
   const allCategories = ['All', ...categories];
 
   return (
-    <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 pb-2 sm:pb-0">
+    <div className="overflow-x-auto scrollbar-hide pb-2 sm:pb-0">
       <div className="flex gap-2 sm:flex-wrap min-w-max sm:min-w-0">
         {allCategories.map((category, index) => {
           const Icon = getCategoryIcon(category);
